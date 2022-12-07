@@ -35,6 +35,124 @@
         }
     ],
     "paths": {
+                "/annotation/{id}/resolve": {
+                    "put": {
+                        "parameters": [
+                            {
+                                "name": "id",
+                                "in": "path",
+                                "required": true,
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "host",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "contentLength",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "xForwardedFor",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "traceparent",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "accept",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "contentType",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "elasticApmTraceparent",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "xRealIp",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "userAgent",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "acceptEncoding",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            },
+                            {
+                                "name": "tracestate",
+                                "in": "header",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        ],
+                        "responses": {
+                            "200": {
+                                "headers": {
+                                    "contentLength": {
+                                        "schema": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "vary": {
+                                        "schema": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "eTag": {
+                                        "schema": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "contentType": {
+                                        "schema": {
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "description": "OK"
+                            }
+                        }
+                    }
+        },
         "/comments": {
             "post": {
                 "parameters": [
