@@ -1,0 +1,2570 @@
+{
+	"info": {
+		"_postman_id": "5529fcc7-7284-4073-ad56-c38f1f213a36",
+		"name": "Annotation Service Stage",
+		"description": "Schema Generated and maintained by API Observability service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "907238-5529fcc7-7284-4073-ad56-c38f1f213a36"
+	},
+	"item": [
+		{
+			"name": "/annotation/:id/resolve",
+			"id": "504e577c-eb15-4336-ab2a-7033cc11b221",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "contentLength",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/annotation/:id/resolve",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"annotation",
+						":id",
+						"resolve"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "<string>",
+							"description": "(Required) "
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "69f3eb2b-edb3-472f-8f67-1605457f83f1",
+					"name": "OK",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "contentLength",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/annotation/:id/resolve",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"annotation",
+								":id",
+								"resolve"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/comments",
+			"id": "9fc7b32c-bede-4c86-a389-d9f85c2ba169",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "contentLength",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"comments"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "1a4a7d6f-b435-4add-b448-9ebc7cfb558a",
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "contentLength",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/comments",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/comments",
+			"id": "42d1c840-6adf-4ed1-8044-ebd689af766d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"comments"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "44780d20-cf1a-451e-8052-c987c26e7030",
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/comments",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentEncoding",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"id": "9ff5f6ff-191d-4ec5-967e-ea1772997a59",
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/comments",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/comments/:commentId",
+			"id": "068d0317-9f96-4a2a-9a61-0345ce97f465",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "contentLength",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/comments/:commentId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"comments",
+						":commentId"
+					],
+					"variable": [
+						{
+							"key": "commentId",
+							"value": "<string>",
+							"description": "(Required) "
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "c0791dbe-df0d-48b6-b7ef-96d2099f3ced",
+					"name": "OK",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "contentLength",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/comments/:commentId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments",
+								":commentId"
+							],
+							"variable": [
+								{
+									"key": "commentId",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/comments/:commentId",
+			"id": "74483c0a-6e53-47ca-a580-85a32e52d250",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/comments/:commentId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"comments",
+						":commentId"
+					],
+					"variable": [
+						{
+							"key": "commentId",
+							"value": "<string>",
+							"description": "(Required) "
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "15146e63-a868-4319-916e-19735edcd299",
+					"name": "OK",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/comments/:commentId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments",
+								":commentId"
+							],
+							"variable": [
+								{
+									"key": "commentId",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/",
+			"id": "3ff9018b-1fb3-45b9-8651-c11fdb1653a3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptLanguage",
+						"value": "<string>"
+					},
+					{
+						"key": "pragma",
+						"value": "<string>"
+					},
+					{
+						"key": "cacheControl",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptCharset",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "ddde2ebd-1e03-4af0-b6a3-801b72fe9849",
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptLanguage",
+								"value": "<string>"
+							},
+							{
+								"key": "pragma",
+								"value": "<string>"
+							},
+							{
+								"key": "cacheControl",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptCharset",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/comments/count",
+			"id": "af321afa-372f-45d8-b5f9-01dcf0de3062",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "cfVisitor",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIplatitude",
+						"value": "<string>"
+					},
+					{
+						"key": "cfRay",
+						"value": "<string>"
+					},
+					{
+						"key": "cfConnectingIp",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "cdnLoop",
+						"value": "<string>"
+					},
+					{
+						"key": "trueClientIp",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcity",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcontinent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptLanguage",
+						"value": "<string>"
+					},
+					{
+						"key": "referer",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIplongitude",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchDest",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchMode",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcountry",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchSite",
+						"value": "<string>"
+					},
+					{
+						"key": "cfWarpTagId",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUaPlatform",
+						"value": "<string>"
+					},
+					{
+						"key": "via",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUa",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUaMobile",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/comments/count",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"comments",
+						"count"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "4b44cb64-952a-49a2-b9f1-5aa425b2d8b9",
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "cfVisitor",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplatitude",
+								"value": "<string>"
+							},
+							{
+								"key": "cfRay",
+								"value": "<string>"
+							},
+							{
+								"key": "cfConnectingIp",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "cdnLoop",
+								"value": "<string>"
+							},
+							{
+								"key": "trueClientIp",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcity",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcontinent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptLanguage",
+								"value": "<string>"
+							},
+							{
+								"key": "referer",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplongitude",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchDest",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchMode",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcountry",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchSite",
+								"value": "<string>"
+							},
+							{
+								"key": "cfWarpTagId",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaPlatform",
+								"value": "<string>"
+							},
+							{
+								"key": "via",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUa",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaMobile",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/comments/count",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"comments",
+								"count"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/knockknock",
+			"id": "05d8ceb3-fdca-4bf6-8045-20e630d08e15",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/knockknock",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"knockknock"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "5b337550-d24f-4cd6-9d14-14c400130603",
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/knockknock",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"knockknock"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/:entityType/:entityId/discussions/visibility",
+			"id": "33be8f3f-7c04-42fe-9ada-41a1d0893736",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "cfVisitor",
+						"value": "<string>"
+					},
+					{
+						"key": "cfRay",
+						"value": "<string>"
+					},
+					{
+						"key": "cfConnectingIp",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "cdnLoop",
+						"value": "<string>"
+					},
+					{
+						"key": "trueClientIp",
+						"value": "<string>"
+					},
+					{
+						"key": "cfWarpTagId",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUaPlatform",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptLanguage",
+						"value": "<string>"
+					},
+					{
+						"key": "referer",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "via",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUa",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchDest",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchMode",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcountry",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUaMobile",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchSite",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIplatitude",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcity",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcontinent",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIplongitude",
+						"value": "<string>"
+					},
+					{
+						"key": "dnt",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/:entityType/:entityId/discussions/visibility",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":entityType",
+						":entityId",
+						"discussions",
+						"visibility"
+					],
+					"variable": [
+						{
+							"key": "entityType",
+							"value": "<string>",
+							"description": "(Required) "
+						},
+						{
+							"key": "entityId",
+							"value": "<string>",
+							"description": "(Required) "
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "0eb084d7-6faa-4da9-a919-f70cfc9f130f",
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "cfVisitor",
+								"value": "<string>"
+							},
+							{
+								"key": "cfRay",
+								"value": "<string>"
+							},
+							{
+								"key": "cfConnectingIp",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "cdnLoop",
+								"value": "<string>"
+							},
+							{
+								"key": "trueClientIp",
+								"value": "<string>"
+							},
+							{
+								"key": "cfWarpTagId",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaPlatform",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptLanguage",
+								"value": "<string>"
+							},
+							{
+								"key": "referer",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "via",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUa",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchDest",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchMode",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcountry",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaMobile",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchSite",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplatitude",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcity",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcontinent",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplongitude",
+								"value": "<string>"
+							},
+							{
+								"key": "dnt",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/:entityType/:entityId/discussions/visibility",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								":entityType",
+								":entityId",
+								"discussions",
+								"visibility"
+							],
+							"variable": [
+								{
+									"key": "entityType",
+									"value": "<string>",
+									"description": "(Required) "
+								},
+								{
+									"key": "entityId",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"id": "50d51ac8-d8d2-4da0-9a02-ac854f88c61e",
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "cfVisitor",
+								"value": "<string>"
+							},
+							{
+								"key": "cfRay",
+								"value": "<string>"
+							},
+							{
+								"key": "cfConnectingIp",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "cdnLoop",
+								"value": "<string>"
+							},
+							{
+								"key": "trueClientIp",
+								"value": "<string>"
+							},
+							{
+								"key": "cfWarpTagId",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaPlatform",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptLanguage",
+								"value": "<string>"
+							},
+							{
+								"key": "referer",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "via",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUa",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchDest",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchMode",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcountry",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaMobile",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchSite",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplatitude",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcity",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcontinent",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplongitude",
+								"value": "<string>"
+							},
+							{
+								"key": "dnt",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/:entityType/:entityId/discussions/visibility",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								":entityType",
+								":entityId",
+								"discussions",
+								"visibility"
+							],
+							"variable": [
+								{
+									"key": "entityType",
+									"value": "<string>",
+									"description": "(Required) "
+								},
+								{
+									"key": "entityId",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "/:entityType/:entityId/discussions/count",
+			"id": "9ec05d22-2839-46ef-be1e-b3ab1f00b52b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "<string>"
+					},
+					{
+						"key": "cfVisitor",
+						"value": "<string>"
+					},
+					{
+						"key": "cfRay",
+						"value": "<string>"
+					},
+					{
+						"key": "cfConnectingIp",
+						"value": "<string>"
+					},
+					{
+						"key": "xForwardedFor",
+						"value": "<string>"
+					},
+					{
+						"key": "cdnLoop",
+						"value": "<string>"
+					},
+					{
+						"key": "trueClientIp",
+						"value": "<string>"
+					},
+					{
+						"key": "cfWarpTagId",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUaPlatform",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptLanguage",
+						"value": "<string>"
+					},
+					{
+						"key": "referer",
+						"value": "<string>"
+					},
+					{
+						"key": "traceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "via",
+						"value": "<string>"
+					},
+					{
+						"key": "contentType",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUa",
+						"value": "<string>"
+					},
+					{
+						"key": "elasticApmTraceparent",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchDest",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchMode",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcountry",
+						"value": "<string>"
+					},
+					{
+						"key": "xRealIp",
+						"value": "<string>"
+					},
+					{
+						"key": "secChUaMobile",
+						"value": "<string>"
+					},
+					{
+						"key": "userAgent",
+						"value": "<string>"
+					},
+					{
+						"key": "acceptEncoding",
+						"value": "<string>"
+					},
+					{
+						"key": "tracestate",
+						"value": "<string>"
+					},
+					{
+						"key": "secFetchSite",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIplatitude",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcity",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIpcontinent",
+						"value": "<string>"
+					},
+					{
+						"key": "cfIplongitude",
+						"value": "<string>"
+					},
+					{
+						"key": "dnt",
+						"value": "<string>"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/:entityType/:entityId/discussions/count",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						":entityType",
+						":entityId",
+						"discussions",
+						"count"
+					],
+					"variable": [
+						{
+							"key": "entityType",
+							"value": "<string>",
+							"description": "(Required) "
+						},
+						{
+							"key": "entityId",
+							"value": "<string>",
+							"description": "(Required) "
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "6a832c11-0a24-42e8-a751-027691a367b6",
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "cfVisitor",
+								"value": "<string>"
+							},
+							{
+								"key": "cfRay",
+								"value": "<string>"
+							},
+							{
+								"key": "cfConnectingIp",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "cdnLoop",
+								"value": "<string>"
+							},
+							{
+								"key": "trueClientIp",
+								"value": "<string>"
+							},
+							{
+								"key": "cfWarpTagId",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaPlatform",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptLanguage",
+								"value": "<string>"
+							},
+							{
+								"key": "referer",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "via",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUa",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchDest",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchMode",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcountry",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaMobile",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchSite",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplatitude",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcity",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcontinent",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplongitude",
+								"value": "<string>"
+							},
+							{
+								"key": "dnt",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/:entityType/:entityId/discussions/count",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								":entityType",
+								":entityId",
+								"discussions",
+								"count"
+							],
+							"variable": [
+								{
+									"key": "entityType",
+									"value": "<string>",
+									"description": "(Required) "
+								},
+								{
+									"key": "entityId",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"id": "7e954e5c-f05a-493d-880f-8f99d0ce4fd3",
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "host",
+								"value": "<string>"
+							},
+							{
+								"key": "cfVisitor",
+								"value": "<string>"
+							},
+							{
+								"key": "cfRay",
+								"value": "<string>"
+							},
+							{
+								"key": "cfConnectingIp",
+								"value": "<string>"
+							},
+							{
+								"key": "xForwardedFor",
+								"value": "<string>"
+							},
+							{
+								"key": "cdnLoop",
+								"value": "<string>"
+							},
+							{
+								"key": "trueClientIp",
+								"value": "<string>"
+							},
+							{
+								"key": "cfWarpTagId",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaPlatform",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptLanguage",
+								"value": "<string>"
+							},
+							{
+								"key": "referer",
+								"value": "<string>"
+							},
+							{
+								"key": "traceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "via",
+								"value": "<string>"
+							},
+							{
+								"key": "contentType",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUa",
+								"value": "<string>"
+							},
+							{
+								"key": "elasticApmTraceparent",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchDest",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchMode",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcountry",
+								"value": "<string>"
+							},
+							{
+								"key": "xRealIp",
+								"value": "<string>"
+							},
+							{
+								"key": "secChUaMobile",
+								"value": "<string>"
+							},
+							{
+								"key": "userAgent",
+								"value": "<string>"
+							},
+							{
+								"key": "acceptEncoding",
+								"value": "<string>"
+							},
+							{
+								"key": "tracestate",
+								"value": "<string>"
+							},
+							{
+								"key": "secFetchSite",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplatitude",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcity",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIpcontinent",
+								"value": "<string>"
+							},
+							{
+								"key": "cfIplongitude",
+								"value": "<string>"
+							},
+							{
+								"key": "dnt",
+								"value": "<string>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/:entityType/:entityId/discussions/count",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								":entityType",
+								":entityId",
+								"discussions",
+								"count"
+							],
+							"variable": [
+								{
+									"key": "entityType",
+									"value": "<string>",
+									"description": "(Required) "
+								},
+								{
+									"key": "entityId",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"disabled": false,
+							"key": "contentLength",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "vary",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "eTag",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"disabled": false,
+							"key": "contentType",
+							"value": "elit pariatur ex eu",
+							"description": ""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "f54eaa0c-e9ac-47f8-8730-b686af34abf9",
+			"key": "baseUrl",
+			"value": "https://annotation.postman-stage.tech",
+			"type": "string"
+		}
+	]
+}
